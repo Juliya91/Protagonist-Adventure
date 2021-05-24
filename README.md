@@ -1,59 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rule the Story
 
-Welcome USER_NAME,
+## Code Institute - Milestone Project 2
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+- The purpose of the **Rule the Story** game is to inspire milenials and generation Z to read more while enjoying playing the game where they decide how the story unfolds.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Table of Contents
+> - [Overview](#overview)
+> - [Description](#description)
+> - [Ux](#ux)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Overview
 
-A blue button should appear to click: _Make Public_,
+The idea has been inspired by Bundersnatch episode from Black Mirror series, but in this case it will be text based. There are many **"Choose your own adventure"** games, however most of them are done in the last century. **Rule the Story** is a way to bring back a retro game using new technologies.
+ 
+## Description 
 
-Another blue button should appear to click: _Open Browser_.
+This project will have three pages, which are: "Home", "Story" and "Feedback" pages. The "Home" page has pop up box with a little description of the game, sound effect and **click here** button which leads user to "Story" page. The "Story" page has the game itself - text with two or more choices.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+---
+## UX  1
 
-To log into the Heroku toolbelt CLI:
+## Strategy
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This website is targeting from teenagers to middle aged groups, for those who enjoy reading and would like to be truly involved in the story. Users here can choose how character will procceed, which will make them feel as part of the story. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+**User Stories**
 
-## Updates Since The Instructional Video
+#### As a First Time User:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- I want to easily understand the main purpose of the site.
+- I want to intuitively navigate throughout the site and easily start the game itself.
+- I want to see engaging design and content.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### As a Frequent User: 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- I want the game being easily accepable and being able to get to it without too many clicks
+- I want story to be interesting as well as choices options
+- I want to be able to restart the game should I get to the dead end.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Scope
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- I have chosen simple design and navigation. The Home page to have pop up box with text animated gif/ image, click button as a link to the Story page and the welcome sound. At the top of each page to have navbar with the logo.
+- For the Story page to have story text followed by the options to choose from and once certain options chosen to have images dispayed. Additionally, once user gets to dead end to have a sound effect.
+- For the Feedback page to have contact input information and text area which once submited to have it sent to my email using emailjs.
+- I have used mixed content of text, images and sounds.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I decided to separate the website into three pages: the home page, story page and feedback page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Skeleton
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Home Page: <a href="assets/wireframes/" target="_blank" >Home</a>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Story Page: <a href="assets/wireframes/" target="_blank" >Story</a>
+
+- Feedback Page: <a href="assets/wireframes/" target="_blank" >Feedback</a>
 
 ---
 
-Happy coding!
