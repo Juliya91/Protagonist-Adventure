@@ -55,11 +55,11 @@ I decided to separate the website into three pages: the home page, story page an
 
 ## Skeleton
 
-- Home Page: <a href="assets/wireframes/" target="_blank" >Home</a>
+- Home Page: <a href="assets/wireframes/home-wireframe-rs.pdf" target="_blank" >Home</a>
 
-- Story Page: <a href="assets/wireframes/" target="_blank" >Story</a>
+- Story Page: <a href="assets/wireframes/story-wireframe-rs.pdf" target="_blank" >Story</a>
 
-- Feedback Page: <a href="assets/wireframes/" target="_blank" >Feedback</a>
+- Feedback Page: <a href="assets/wireframes/feedback-wireframe-rs.pdf" target="_blank" >Feedback</a>
 
 ---
 
