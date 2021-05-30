@@ -4,7 +4,10 @@ body {
     background-color: black;
     font-family: 'Play', sans-serif;
     font-weight: 400;
+    color: #fffffff8;
 }
+
+/*----------------Header-------------*/
 
 /*----------Nav - background syntaxt taken from W3Schools (https://www.w3schools.com/css/css3_gradients.asp)-----*/
 nav {
@@ -42,16 +45,16 @@ nav {
     border: 5px solid rgb(0, 0, 0);
 }
 
+/*---------------Footer----------------*/
+
 footer {
     background-image: linear-gradient(to top, rgb(75, 1, 82) 40%, rgba(0, 0, 0, 1));
     position: fixed;
     width: 100%;
-    left: 0;
-    bottom: 0;
     min-height: 120px;
     font-family: 'Play', sans-serif;
     font-weight: 400;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 25px;
     
@@ -77,6 +80,34 @@ footer {
 .copyright {
     margin-bottom: 5px;
     padding-bottom: 0;
+}
+
+/*------------Home page welcome box*/
+
+#welcomeBox,
+#contentBox  {
+    border: 3px solid rgb(75, 1, 82);
+    border-radius: 30px;
+    background-color: rgb(75, 1, 82);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 80px;
+    display: inline-block;
+    width: 660px;
+}
+
+#contentBox {
+    height: 310px;
+}
+
+#welcomeBox p {
+    margin-top: 15px;
+}
+
+iframe{
+   height:120px;
+   width: 120px;
 }
 
 @media only screen and (min-width: 768px){
