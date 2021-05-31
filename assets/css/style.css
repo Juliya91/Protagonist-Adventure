@@ -10,6 +10,10 @@ body {
 /*----------------Header-------------*/
 
 /*----------Nav - background syntaxt taken from W3Schools (https://www.w3schools.com/css/css3_gradients.asp)-----*/
+header {
+    width: 100%;
+}
+
 nav {
     background-image: linear-gradient( rgb(75, 1, 82) 40%, rgba(0, 0, 0, 1));
 }
@@ -49,19 +53,18 @@ nav {
 
 footer {
     background-image: linear-gradient(to top, rgb(75, 1, 82) 40%, rgba(0, 0, 0, 1));
-    position: fixed;
     width: 100%;
     min-height: 120px;
     font-family: 'Play', sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 25px;
-    
+    margin-top: 80px;
 }
 
 .col-12 h6 {
-    margin-top: 17px;
+    margin-top: 15px;
+    padding-top: 20px;
     text-shadow: rgb(255, 241, 0) -1px -1px;
 }
 
@@ -74,7 +77,7 @@ footer {
     width: 35px;
     font-size: 35px;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .copyright {
@@ -86,28 +89,31 @@ footer {
 
 #welcomeBox,
 #contentBox  {
-    border: 3px solid rgb(75, 1, 82);
+    border: 10px solid rgba(75, 1, 82, 0.4);
     border-radius: 30px;
     background-color: rgb(75, 1, 82);
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: 300px;
-    margin-right: 80px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    min-height: 300px;
     display: inline-block;
-    width: 660px;
+    width: 300px;
 }
 
 #contentBox {
     height: 310px;
 }
 
-#welcomeBox p {
+#welcomeBox .welcome-text {
     margin-top: 15px;
+    padding: 5px;
 }
 
 iframe{
-   height:120px;
-   width: 120px;
+   height:100px;
+   width: 100px;
 }
 
 @media only screen and (min-width: 768px){
@@ -115,6 +121,15 @@ iframe{
         margin: 10px 60px 20px 60px;
         font-weight: 700;
         font-size: 15px;
+    }
+
+    #welcomeBox,
+    #contentBox  {
+        margin-left: 80px;
+        margin-top: 90px;
+        margin-bottom: 0;
+        width: 610px;
+        min-height: 350px;
     }
 }
 
@@ -132,5 +147,14 @@ iframe{
     .btn-dark {
         margin: 10px 100px 20px 100px;
         font-size: 17px;
+    }
+
+    #welcomeBox,
+    #contentBox  {
+        margin-top: 80px;
+        margin-left: 300px;
+        margin-bottom: 50px;
+        width: 660px;
+        padding-bottom: 40px;
     }
 }

@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Protagonist Adventure</title>
+    
+    <!--------Code snippet taken from emailjs.com (https://dashboard.emailjs.com/admin/integration/browser)-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("user_MUQxOgCfoSEIHEqG9jWm2");
+      })();
+    </script>
 </head>
 <body>
     <header>
@@ -26,6 +34,20 @@
               </div>
         </nav>
     </header>
+   <!------------/Navbar-->
+
+    <!--------- Form - code taken from Code Institute Lesson "Connecting To The EmailJS Service Using Their SDK" & edited slightly-->
+    <div class="center-form">
+      <form onsubmit="return sendMail(this);">
+          <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+          <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+          <textarea rows="5" name="feedbackinfo" class="form-control" id="feedbackinfo" placeholder="Let us know how we did and what content would you like to see" required></textarea>
+          <button type="submit" class="btn btn-dark center-block">Send Your Feedback</button>
+      </form>
+  </div>
+  <!----------/Form-->
+
+  <!---------- Footer - code taken from my previous project Instacity of Go:teborg (https://github.com/Juliya91/instacity-goteborg/blob/master/index.html) and edited-->
     <footer class="container-fluid">
       <div class="row">
         <div class="col-12">
@@ -61,5 +83,7 @@
         </div>
     </div>
   </footer>
+  <!--------------/Footer-->
+  <script src="assets/js/email.js"></script>
 </body>
 </html>
