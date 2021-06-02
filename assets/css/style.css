@@ -24,11 +24,13 @@ nav {
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
     text-shadow: rgb(144 39 142) -2px -2px,
                  rgb(236 28 36) -3px -3px,
                  rgb(239 145 41) -4px -4px,
                  rgb(0 165 81) -5px -5px,
                  rgb(255 241 0) -6px -6px;
+    margin-left: 15px;
 
 }
 
@@ -36,12 +38,13 @@ nav {
 
 .btn-dark {
     border: 3px solid rgb(108, 2, 129);
-    border-radius: 20px;
+    border-radius: 15px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 10px;
-    margin: 5px 5px 10px 5px;
+    padding: 5px;
+    
 }
 
 .btn-dark:hover {
@@ -49,17 +52,24 @@ nav {
     border: 5px solid rgb(0, 0, 0);
 }
 
+.header-btn {
+    margin: 5px 2px 5px 2px;
+}
+
 /*---------------Footer----------------*/
 
 footer {
     background-image: linear-gradient(to top, rgb(75, 1, 82) 40%, rgba(0, 0, 0, 1));
     width: 100%;
-    min-height: 120px;
+    min-height: 140px;
     font-family: 'Play', sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 80px;
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0;
 }
 
 .col-12 h6 {
@@ -87,6 +97,9 @@ footer {
 
 /*------------Home page welcome box & Begin Your Adventure content box*/
 
+/*-----Box-shadow properties taken from Javascript-Text-Adventure-Game by Mega-Barrel on GitHub 
+(https://github.com/Mega-Barrel/Javascript-Text-Adventure-Game/blob/master/main.css)*/
+
 #welcomeBox,
 #contentBox  {
     border: 10px solid rgba(75, 1, 82, 0.4);
@@ -94,16 +107,17 @@ footer {
     background-color: rgb(75, 1, 82);
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 80px;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    min-height: 300px;
     display: inline-block;
+    margin-top: 40px;
+    margin-left: 14px;
     width: 300px;
+    max-width: 90%;
+    box-shadow: 0 0 10px 2px;
 }
 
 #contentBox {
-    height: 310px;
+    max-height: 500px;
+    min-height: 300px;
 }
 
 #welcomeBox .welcome-text {
@@ -116,24 +130,41 @@ iframe{
    width: 100px;
 }
 
-@media only screen and (min-width: 768px){
-    .btn-dark {
-        margin: 10px 60px 20px 60px;
-        font-weight: 700;
-        font-size: 15px;
-    }
+/*---------------Adventure Page-----*/
 
-    #welcomeBox,
-    #contentBox  {
-        margin-left: 80px;
-        margin-top: 90px;
-        margin-bottom: 0;
-        width: 610px;
-        min-height: 350px;
-    }
+#story {
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 1, 82);
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
-@media only screen and (min-width: 1025px) {
+/*---------------Feedback Form-----*/
+
+.centered-form {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.centered-form form input, 
+.centered-form form textarea {
+    border: 5px solid rgb(75, 1, 82);
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.center-block {
+    margin-left: 75px;
+}
+
+
+@media only screen and (min-width: 768px){
+
     .navbar-brand {
         font-size: 30px;
         font-weight: 800;
@@ -145,16 +176,65 @@ iframe{
     }
 
     .btn-dark {
-        margin: 10px 100px 20px 100px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .header-btn {
+        margin: 10px 50px 20px 50px;
+    }
+
+    #welcomeBox,
+    #contentBox  {
+        margin-top: 90px;
+        width: 610px;
+        min-height: 350px;
+    }
+
+    #welcomeBox {
+        margin-left: 80px;
+    }
+
+    #contentBox {
+        margin-left: 40px;
+    }
+
+    .centered-form {
+        max-width: 50%;
+    }
+
+    .center-block {
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .btn-dark {
         font-size: 17px;
+    }
+
+    .header-btn {
+        margin: 10px 100px 20px 100px;
     }
 
     #welcomeBox,
     #contentBox  {
         margin-top: 80px;
-        margin-left: 300px;
         margin-bottom: 50px;
         width: 660px;
         padding-bottom: 40px;
+    }
+
+    #welcomeBox {
+        margin-left: 300px;
+    }
+
+    #contentBox {
+        margin-left: 100px;
+    }
+
+    .center-block {
+        margin-left: 210px;
     }
 }
