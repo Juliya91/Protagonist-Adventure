@@ -67,8 +67,8 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 80px;
-    position: fixed;
-    margin-bottom: 0;
+    position: relative;
+    left: 0;
     bottom: 0;
 }
 
@@ -152,6 +152,7 @@ iframe{
 .btn:hover {
     background-color: rgb(108, 2, 129);
     border: 5px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 /*---------------Feedback Form-----*/
@@ -177,7 +178,7 @@ form {
     margin-left: 75px;
 }
 
-
+/*-----------Media Queries---------*/
 
 
 @media only screen and (min-width: 768px){
@@ -200,6 +201,11 @@ form {
     .header-btn {
         margin: 10px 50px 20px 50px;
     }
+
+    footer {
+        position: fixed;
+    }
+    
 
     #welcomeBox,
     #contentBox  {
@@ -233,6 +239,10 @@ form {
 
     .header-btn {
         margin: 10px 100px 20px 100px;
+    }
+
+    footer {
+        position: relative;
     }
 
     #welcomeBox,
