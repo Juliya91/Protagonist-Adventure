@@ -116,6 +116,10 @@ footer {
     margin-top: 50px;
 }
 
+#welcomeBox {
+    width: 300px;
+}
+
 
 #contentBox {
     min-height: 300px;
