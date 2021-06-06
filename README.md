@@ -11,6 +11,7 @@
 > - [Description](#description)
 > - [Ux](#ux)
 > - [Features](#features)
+> - [Technologies Used](#technologies-used)
 
 
 
@@ -116,3 +117,27 @@ I used a very simple layout with two predominant dark colors, while playing thei
 - Visual ilustrations to curtain scenes
 - Ability to get, exchange and store items
 ---
+## Technologies Used
+
+#### Languages:
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+#### Libraries:
+- [Bootstrap v5.0](https://getbootstrap.com/) - A mobile-first responsive library used to construct various parts of the website, including the Navbar, Grid System Buttons.
+- [GoogleFonts](https://fonts.google.com/) - Orbitron and Play fonts
+- [FontAwesome](https://fontawesome.com/) - Used for icons used for the footer 
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE) - used for creating the wireframes
+
+#### Version Control:
+- [Github](https://github.com/) - Used to store the code and to deploy the website. 
+- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
+
+#### Other:
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Main learning base as well as inspiration for curtain features.
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to check layout, responsivness and any malfunctions, especially using console for JS functionality.
+- [W3Schools](https://www.w3schools.com/) - used for CSS coding for gradient navbar.
+- [HTML.am](https://www.html.am/) - Used for Copyright sign code.
+- [Mathew Lein](https://matthewlein.com/) - Used for rainbox text-shadow for the logo.
+
