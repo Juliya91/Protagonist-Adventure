@@ -4,10 +4,12 @@
 const textElement = document.getElementById('story')
 const pathButtonsElement = document.getElementById('choices-buttons')
 
+//Start the game function linking to show text node function
 function startGame() {
     showTextNode(1)
 }
 
+//Show text node function to display all text and choices
 function showTextNode(textNodeIndex) {
     let textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     textElement.innerText = textNode.text
@@ -27,6 +29,8 @@ function showTextNode(textNodeIndex) {
     })
 }
 
+//Select choice function is when user picks a choice it will link to the correct id of the next text
+//If statement there to specify that if next text smaller or equal to 0 then it will restart the game
 function selectChoice(choice) {
 
     let nextTextNodeId = choice.nextText
@@ -36,7 +40,7 @@ function selectChoice(choice) {
     showTextNode(nextTextNodeId)
 }
 
-
+//Text nodes array consisting of ids, texts and choices
 const textNodes = [{
         id: 1,
         text: 'You open your eyes and find yourself in the middle of an enormous sports stadium, completely and utterly disorientated... Where... are you? And what exactly is going on? ....The last thing you vaguely remember is that the government ordered the city to take a vaccine named SI-1093 which promised to prevent the contraction of deadly viruses. Surely that was just speculation. Or was it? .....You blink rapidly and focus on a group of people in the near distance, huddled around what looked like a makeshift bonfire barbecue of some sort. The people are wearing worn out, mis-matched clothing and look slightly disheveled...',
