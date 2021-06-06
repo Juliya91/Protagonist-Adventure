@@ -51,7 +51,7 @@ This website is targeting from teenagers to middle aged groups, for those who en
 
 ## Structure
 
-I decided to separate the website into three pages: the home page, story page and feedback page.
+I decided to separate the website into three pages: the Home page, Begin Your Adventure page and Feedback page.
 
 ## Skeleton
 
@@ -63,3 +63,18 @@ I decided to separate the website into three pages: the home page, story page an
 
 ---
 
+## Surface
+
+I used a very simple layout with two predominant dark colors, while playing their shades. For logo I used rainbow text-shadow to give the pages retro look. All buttons, content boxes and input fields are in rounded shapes, which creates consistency and harmony throughout all 3 pages.
+
+
+### Gif
+- Gif was used for Home page to add a little bit of visual interactivity.
+-   ### Design
+    -   #### Colour Scheme
+        - Main colors of the website are - black, purple and white. This colourscheme is consistant throughout all pages and in my opinion the best for retro look. For the buttons I used slightly lighter shade of purple with black borders and when hover over it reverses border and background colours. For the logo - rainbow text-shadow has been used.
+    -   #### Typography
+        -   The Orbitron font used for logo/name of the website. While Play font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't loading. 
+        Orbitron is perfect for retro looking 
+    -   #### Icons
+        - Font Awesome was used for icons and they are psent on all pages: part of logo, next to links to summer & winter pages in the description on the home page and social links.
