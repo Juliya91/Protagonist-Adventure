@@ -106,11 +106,12 @@ footer {
     background-color: rgb(75, 1, 82);
     color: rgb(255, 255, 255);
     text-align: center;
-    display: inline-block;
+    display: block;
+    position: relative;
     margin-top: 40px;
-    margin-left: 14px;
-    width: 300px;
-    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -233,14 +234,6 @@ a img {
         min-height: 350px;
     }
 
-    #welcomeBox {
-        margin-left: 80px;
-    }
-
-    #contentBox {
-        margin-left: 40px;
-    }
-
     .centered-form {
         max-width: 50%;
     }
@@ -270,14 +263,6 @@ a img {
         margin-bottom: 50px;
         width: 660px;
         padding-bottom: 40px;
-    }
-
-    #welcomeBox {
-        margin-left: 300px;
-    }
-
-    #contentBox {
-        margin-left: 250px;
     }
 
     .center-block {
