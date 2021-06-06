@@ -113,7 +113,9 @@ footer {
     margin-right: auto;
     width: 100%;
     box-shadow: 0 0 10px 2px;
+    margin-top: 50px;
 }
+
 
 #contentBox {
     min-height: 300px;
@@ -124,7 +126,7 @@ footer {
     padding: 5px;
 }
 
-iframe{
+.gif {
    height:100px;
    width: 100px;
 }
