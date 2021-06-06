@@ -148,4 +148,11 @@ I used a very simple layout with two predominant dark colors, while playing thei
 - Links (Internal & External): internal links - when clicking on brand/logo it is leading user to Home page from any page; button/link insiide vontent box on Home page is redirecting to the Begin Your Adventure page. External links - in this case icons, used in the footer are leading user to my social media profiles and for better UX I used traget:_blank, so it opens it in the new tab.
 - Checked the website was mobile responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
 
+- **Home**
+![home-mob-responsive](https://user-images.githubusercontent.com/75125486/120943383-7032e380-c726-11eb-86b0-1a46f935e589.png)
+- **Begin Your Adventure**
+![adventure-mob-responsive](https://user-images.githubusercontent.com/75125486/120943507-31e9f400-c727-11eb-911e-bfc6458e8c50.png)
+- **Feedback**
+![feedback-mob-responsive](https://user-images.githubusercontent.com/75125486/120943561-96a54e80-c727-11eb-9920-d79f4947d75f.png)
+
 
