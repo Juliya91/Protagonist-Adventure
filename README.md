@@ -10,6 +10,7 @@
 > - [Overview](#overview)
 > - [Description](#description)
 > - [Ux](#ux)
+> - [Features](#features)
 
 
 
@@ -75,6 +76,43 @@ I used a very simple layout with two predominant dark colors, while playing thei
         - Main colors of the website are - black, purple and white. This colourscheme is consistant throughout all pages and in my opinion the best for retro look. For the buttons I used slightly lighter shade of purple with black borders and when hover over it reverses border and background colours. For the logo - rainbow text-shadow has been used.
     -   #### Typography
         -   The Orbitron font used for logo/name of the website. While Play font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't loading. 
-        Orbitron is perfect for retro looking 
+        Orbitron is perfect for retro looking logo and combining with rainbow text-shadow. Play is very similar to Orbitron in the way it shaped, which creates uniformity throughout the whole website. Play has as well a retro while still is nicely spaced out and easy to read.
     -   #### Icons
-        - Font Awesome was used for icons and they are psent on all pages: part of logo, next to links to summer & winter pages in the description on the home page and social links.
+        - Font Awesome was used for icons and they are psent on all pages at the footer.
+## Features
+
+#### Navbar
+- The navbar's background has been designed with a vertical gradient-style fading to the body, creating seamless transition to black body background. 
+- Nav elements have rounded shapes placed in the centre right underneath the logo.
+- Logo can be clicked on any page and it will take the user to home one.
+- For the logo a rainbow text-shadow declaration have been used.
+
+#### Home
+- Content box is present in the middle of the body 
+- Box shadow declaration used for the content box
+- Gif added to the content box
+- Underneath gif and text is button "Click Here!" that takes user to Begin your Adventure page.
+
+#### Begin your Adventure
+- In the middle of the page content box is present similar to the one on Home page
+- Content box have same as home page box shadow present 
+- Text for the game is wrapper in another container to have a white background
+- Text for the game is changing depending on user's choice of actions
+- Buttons inside content box underneeth the text are in the same style as navbar buttons for the consistency, however the font weight is 400 instead of 700 for easier readability as they contain more text
+- Each button inside content box is the choices for a user to pick from for the desired story involvement
+- When arrive to dead end the restart button takes you to the begining
+
+#### Feedback 
+- Contains form to fill out for leaving feedback or requesting a new content
+- EmailJS used to link the form to my email
+
+#### Footer
+- The same as header vertical gradient-style fade has been aplied
+- Feedback link can be clicked for user to go straight to feedback page
+- Social media icons link to my profile pages
+
+### Features Left to Implement
+- Music effects when arrive to the dead end.
+- Visual ilustrations to curtain scenes
+- Ability to get, exchange and store items
+---
