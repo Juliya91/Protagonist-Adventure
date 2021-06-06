@@ -118,6 +118,7 @@ footer {
 
 #welcomeBox {
     width: 300px;
+    font-size: small;
 }
 
 
@@ -238,6 +239,10 @@ a img {
         margin-top: 90px;
         width: 610px;
         min-height: 350px;
+    }
+
+    #welcomeBox {
+        font-size: large;
     }
 
     .centered-form {
