@@ -4,10 +4,7 @@
 const textElement = document.getElementById('story')
 const pathButtonsElement = document.getElementById('choices-buttons')
 
-let status = {}
-
 function startGame() {
-    status = {}
     showTextNode(1)
 }
 
@@ -20,7 +17,7 @@ function showTextNode(textNodeIndex) {
     }
 
     textNode.choices.forEach(choice => {
-        if (showChoice(choice)) {
+        if (choice) {
             const button = document.createElement('button')
             button.innerText = choice.text
             button.classList.add('btn')
@@ -28,10 +25,6 @@ function showTextNode(textNodeIndex) {
             pathButtonsElement.appendChild(button)
         }
     })
-}
-
-function showChoice(choice) {
-    return choice
 }
 
 function selectChoice(choice) {
