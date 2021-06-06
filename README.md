@@ -140,13 +140,16 @@ I used a very simple layout with two predominant dark colors, while playing thei
 - [W3Schools](https://www.w3schools.com/) - used for CSS coding for gradient navbar and alighnment tips.
 - [HTML.am](https://www.html.am/) - Used for Copyright sign code.
 - [Mathew Lein](https://matthewlein.com/) - Used for rainbox text-shadow for the logo.
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to see how the layout of the website looks across different devices- found at the top of this [README](https://github.com/Juliya91/instacity-goteborg/blob/master/README.md). 
+
 
 
 ## Testing
 
 - Form testing: to check feedback form functionality, I tested it on different devices and browsers. For that I clicked the send your feedback button on the Feedback page without any text in inputs to see it showing the desired response of 'Please fill out this field'. For emailJs functionality I have submited feedback from my friends email - first of all it showed in devtools console '200 SUCCESS' and secon of all I received an email.
 - Links (Internal & External): internal links - when clicking on brand/logo it is leading user to Home page from any page; button/link insiide vontent box on Home page is redirecting to the Begin Your Adventure page. External links - in this case icons, used in the footer are leading user to my social media profiles and for better UX I used traget:_blank, so it opens it in the new tab.
-- Checked the website was mobile responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
+- Checked that the website was mobile responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
 
 - **Home**
 ![home-mob-responsive](https://user-images.githubusercontent.com/75125486/120943383-7032e380-c726-11eb-86b0-1a46f935e589.png)
