@@ -158,4 +158,17 @@ I used a very simple layout with two predominant dark colors, while playing thei
 - **Feedback**
 ![feedback-mob-responsive](https://user-images.githubusercontent.com/75125486/120943561-96a54e80-c727-11eb-9920-d79f4947d75f.png)
 
+#### Validation
 
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+![feedback-validate-er](https://user-images.githubusercontent.com/75125486/120946294-e25df500-c733-11eb-98ff-8496ad88f4c0.png)
+- On feedback.html showed warning for unnecassary type attribute in script cources for JavaScript
+- Showing warnings for two consecutive hyphens in a comments.
+
+![html-feedback-js-cor](https://user-images.githubusercontent.com/75125486/120946483-98c1da00-c734-11eb-9141-04044eb41361.png)
+- Removed type attribute from script tags in the head of feedback.html
+- Kept the comments in the current format as it easear to read through the code
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+![css-validation](https://user-images.githubusercontent.com/75125486/120946723-5fd63500-c735-11eb-8e80-459b7f79354f.png)
