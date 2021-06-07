@@ -1,8 +1,10 @@
-# Rule the Story
+# [Protagonist Adventure](https://juliya91.github.io/Protagonist-Adventure/feedback.html)
 
 ## Code Institute - Milestone Project 2
 
-- The purpose of the **Rule the Story** game is to inspire milenials and generation Z to read more while enjoying playing the game where they decide how the story unfolds.
+### View the live project [here.](https://juliya91.github.io/Protagonist-Adventure/index.html)
+
+- The purpose of the **Protagonist Adventure** game is to inspire milenials and generation Z to read more while enjoying playing the game where they decide how the story unfolds.
 
 
 
@@ -12,16 +14,17 @@
 > - [Ux](#ux)
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
 
 
 
 ## Overview
 
-The idea has been inspired by Bundersnatch episode from Black Mirror series, but in this case it will be text based. There are many **"Choose your own adventure"** games, however most of them are done in the last century. **Rule the Story** is a way to bring back a retro game using new technologies.
+The idea has been inspired by Bundersnatch episode from Black Mirror series, but in this case it will be text based. There are many **"Choose your own adventure"** games, however most of them are done in the last century. **Protagonist Adventure** is a way to bring back a retro game using new technologies.
  
 ## Description 
 
-This project will have three pages, which are: "Home", "Story" and "Feedback" pages. The "Home" page has pop up box with a little description of the game, sound effect and **click here** button which leads user to "Story" page. The "Story" page has the game itself - text with two or more choices.
+This project will have three pages, which are: "Home", "Begin Your Adventure" and "Feedback" pages. The "Home" page has pop up box with a little description of the game, sound effect and **click here** button which leads user to "Begin Your Adventure" page. The "Begin Your Adventure" page has the game itself - text with two or more choices.
 
 ---
 ## UX  1
@@ -141,7 +144,7 @@ I used a very simple layout with two predominant dark colors, while playing thei
 - [HTML.am](https://www.html.am/) - Used for Copyright sign code.
 - [Mathew Lein](https://matthewlein.com/) - Used for rainbox text-shadow for the logo.
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
-- [AmIResponsive](http://ami.responsivedesign.is/) - Used to see how the layout of the website looks across different devices- found at the top of this [README](https://github.com/Juliya91/instacity-goteborg/blob/master/README.md). 
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to see how the layout of the website looks across different devices- found at the top of this [README](https://github.com/Juliya91/Protagonist-Adventure/blob/master/README.md). 
 
 
 
@@ -172,3 +175,26 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 ![css-validation](https://user-images.githubusercontent.com/75125486/120946723-5fd63500-c735-11eb-8e80-459b7f79354f.png)
+
+## Deployment
+
+- Once I had set up my account Github, I created a new repository by clicking "+" next to my profile avatar and choosing "New repository". To create this project and all follow along projects, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Once added a Gitpod extention to a browser, on GitHub repository click on the green "Gitpod" button which will redirect to [Gitpod](https://gitpod.io/)
+- Gitpod, an IDE used to write all the code and this README file for this project.
+- After every significant change and edition to the project it was saved, commited and pushed to Github where it is stored in a [repository](https://github.com/Juliya91/instacity-goteborg)
+- Under "Settings", I scrolled down to Github Pages and it is now has its own dedicated tab. I clicked on the link and there I then selected "Master Branch".
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed. That URL gets updated automatically each time I made a change on Gitpod and pushed it to GitHub.
+
+## Credits
+
+### Content
+
+- Content was created by myself with proofreading and slight amendments from my friend - Jessica George
+
+### Media
+
+- The ilustration for the 404.html taken Pixabay and Gif for endex.html taken from Giphy.
+---
+### Acknowledgements
+
+- My friend Jessica Gearge for all the help with content and especially huge support.

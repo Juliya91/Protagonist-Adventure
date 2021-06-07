@@ -263,9 +263,13 @@ a img {
         margin: 10px 100px 20px 100px;
     }
 
+    footer {
+        position: relative;
+    }
+
     #welcomeBox,
     #contentBox  {
-        margin-top: 160px;
+        margin-top: 90px;
         width: 660px;
         padding-bottom: 40px;
     }
@@ -276,6 +280,10 @@ a img {
 }
 
 @media only screen and (min-width: 1280px) {
+    footer {
+        position: fixed;
+    }
+
     #welcomeBox,
     #contentBox  {
         margin-top: 180px;
@@ -283,6 +291,6 @@ a img {
     }
 
     .centered-form {
-        margin-top: 180px;
+        margin-top: 110px;
     }
 }
