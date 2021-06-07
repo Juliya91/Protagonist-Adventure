@@ -182,7 +182,9 @@ form {
 }
 
 .center-block {
-    margin-left: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 /*-----------404 page--------*/
@@ -236,7 +238,7 @@ a img {
 
     #welcomeBox,
     #contentBox  {
-        margin-top: 160px;
+        margin-top: 140px;
         width: 610px;
         min-height: 350px;
     }
@@ -246,11 +248,8 @@ a img {
     }
 
     .centered-form {
-        max-width: 50%;
-    }
-
-    .center-block {
-        margin-left: 110px;
+        max-width: 70%;
+        margin-top: 100px;
     }
 }
 
@@ -264,16 +263,26 @@ a img {
         margin: 10px 100px 20px 100px;
     }
 
-    
-
     #welcomeBox,
     #contentBox  {
-        margin-bottom: 50px;
+        margin-top: 160px;
         width: 660px;
         padding-bottom: 40px;
     }
 
-    .center-block {
-        margin-left: 210px;
+    .centered-form {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #welcomeBox,
+    #contentBox  {
+        margin-top: 180px;
+        width: 860px;
+    }
+
+    .centered-form {
+        margin-top: 180px;
     }
 }
