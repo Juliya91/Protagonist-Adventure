@@ -6,7 +6,7 @@
 
 - The purpose of the **Protagonist Adventure** game is to inspire milenials and generation Z to read more while enjoying playing the game where they decide how the story unfolds.
 
-
+![am-i-responsive](https://user-images.githubusercontent.com/75125486/120950104-f7d81c80-c73d-11eb-9d29-612fdc5ca160.png)
 
 ## Table of Contents
 > - [Overview](#overview)
@@ -15,6 +15,10 @@
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
 > - [Testing](#testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#acknowledgements)
+
 
 
 
