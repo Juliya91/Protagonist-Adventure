@@ -15,6 +15,8 @@
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
 > - [Testing](#testing)
+> - [Project bugs and solutions](#bugs-and-solutions)
+> - [Testing User Stories](#testing-user-stories)
 > - [Deployment](#deployment)
 > - [Credits](#credits)
 > - [Acknowledgments](#acknowledgements)
@@ -187,6 +189,31 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 - Content boxes on index.html and adventure.html were not displaying ideally in centre - I changed width to 100% and added margins left and right: auto.
 - Content box on index.html was partially covered on the sides on mobile verstion - added width: 300px to #welcomeBox separetely undertneath the (#welcomeBox, #contentBox).
 
+#### Testing User Stories
+
+#### As a First Time User:
+
+**"I want to easily understand the main purpose of the site."**
+> *The moment the user opens the website they can see the logo - Protagonist Adventure right at the middle top with rainbow text shadow and the name gives a very good idea of what the website is about.
+Subsquently, right under the header you see content box with welcome text and invitation to play the game.*
+
+**"I want to intuitively navigate throughout the site and easily start the game itself."**
+> *Navbar has the buttons that lead user to all the pages right at the top. Additionally, content box in the middle of the Home page has 'click here' button that will redirect the user straight to the Begin Your Adventure page where user can play the game.* 
+
+**"I want to see engaging design and content."**
+> *Main colours are black, purple and white with rainbow text shadow for the logo/brand which creates retro look which consides with choose your own adventure game. 
+The content boxes are matching the colourscheme of header, body and footer. Content box on the Home page has welcome text, gif (saying 'Play') and 'Click here!', which is estetocally pleasing and fetching. The content box on Begin Your Adventure has the game itself with the story  which is easy to follow and is engaging.*
+
+#### As a Frequent User:
+
+**"I want the game being easily accepable and being able to get to it without too many clicks."**
+> *Very easy to get to the Begin your Adventure page which is the game itself, user only needs either click on the button in the navbar or the button inside welcome content box on the Home page.*
+
+**"I want story to be interesting as well as choices options."**
+> *My friends played the game and advised that story is very engaging and the options are interesting. They played repeatedly as got to the dead ends few times.*
+
+**"I want to be able to restart the game should I get to the dead end."**
+> *Once the user gets to the dead end there restart button that gets them back to the start of the start of the game and they can attemt to move mofard in the story again.*
 
 ## Deployment
 
