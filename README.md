@@ -1,4 +1,4 @@
-# [Protagonist Adventure](https://juliya91.github.io/Protagonist-Adventure/feedback.html)
+# [Protagonist Adventure](https://juliya91.github.io/Protagonist-Adventure/index.html)
 
 ## Code Institute - Milestone Project 2
 
@@ -179,6 +179,14 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 ![css-validation](https://user-images.githubusercontent.com/75125486/120946723-5fd63500-c735-11eb-8e80-459b7f79354f.png)
+
+#### Bugs and Solutions
+
+- Removed btn-dark class from choice buttons on adventure.html as it wasn't aligning correctly and font-weight was too thick. Added sepate properties to .btn instead to have more control.
+- Footer wasn't sticking to the bottom on ipad and large screen and once aplied position: fixed to all screens, on the desktop and mobile versions content boxes were partially covered by the footer being unable to scroll down. Added position: relative to mobile and desktop versions and position: fixed to ipad and large screen versions
+- Content boxes on index.html and adventure.html were not displaying ideally in centre - I changed width to 100% and added margins left and right: auto.
+- Content box on index.html was partially covered on the sides on mobile verstion - added width: 300px to #welcomeBox separetely undertneath the (#welcomeBox, #contentBox).
+
 
 ## Deployment
 
